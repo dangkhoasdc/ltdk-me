@@ -1,18 +1,25 @@
 ---
 layout: "post.njk"
-title: "Welcome to Academic Blog Template"
-description: "Eleventy academic blog template"
+title: "LTDK"
+description: "LTDK's Personal Homepage"
 ---
 
-This is a template for academic blog. See the [GitHub Repository here](https://github.com/CondensedMilk7/eleventy-academic-template).
+Ta da ta da, something about myself.
 
-It supports citations [@allport1935], powered by [markdown-it-biblatex](https://github.com/arothuis/markdown-it-biblatex),
-[table of contents](https://github.com/cmaas/markdown-it-table-of-contents),
-and LaTeX style math expressions with [markdown-it-mathjax3](https://github.com/tani/markdown-it-mathjax3#readme).
+I'm currently a Senior Machine Learning Engineer at [Visenze](https://www.visenze.com/) working on [making product search better](https://github.com/dangkhoasdc/awesome-vector-database).
+My noticeable projects:
 
-$\sqrt{3x-1}+(1+x)^2$
+- Low-level optimization: change the default quantized vector quantization from SDC to ADC.^[It seems stupidly simple, but it was a huge pain since the API in the engine always assumes that both query vectors and index vectors are quantized].
+- [Multisearch](https://www.visenze.com/discovery-suite/modules/multi-search/): completely re-design the search backend. From design the architecture, select backend, derive the algorithm and logic flow, to develop various cool features to enhance end user experiences such as: natural filtering, boosting mechanism, rerank services, adaptive threshold.
 
-Who would need this? People who work in academic or educational fields
-and want to make their work available on the web.
+I also spent about 2 years at Visenze to develop on-device ML solutions:
 
-[bibliography]
+1. Built a 3D object labelling solution. It comprises: (1) a AR mobile app that let users capture the object, save all 3D information, (2) an Unity tool to import and refine raw data, (3) a DL training framework to develop a 3D object detection model.
+2. Built several computer vision solutions ([a sneak peak](https://www.youtube.com/shorts/SMwoToz2V54)) on mobile devices. I built DL models designed for low memory usage and fast inference to maintain 30 FPS constraint. I integrated [mediapipe](https://github.com/google-ai-edge/mediapipe) to the existing Unity games via [native plugins](https://docs.unity3d.com/Manual/PluginsForIOS.html). 
+
+# Misc
+
+- A collection of my [favorite books](books).
+
+# Build Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a50de616-5c47-410a-84ec-c06112a7154f/deploy-status)](https://app.netlify.com/sites/ltdk-me/deploys)

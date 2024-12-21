@@ -6,6 +6,7 @@ const markdownItBiblatex = require("@arothuis/markdown-it-biblatex");
 const mdAnchor = require("markdown-it-anchor");
 const mdTableOfContents = require("markdown-it-table-of-contents");
 const mdHighlightjs = require("markdown-it-highlightjs");
+const mdFootnote = require("markdown-it-footnote");
 const mathjax3 = require("markdown-it-mathjax3");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const terser = require("terser");
@@ -70,6 +71,7 @@ module.exports = function (eleventyConfig) {
   md.use(mdHighlightjs, { auto: false });
 
   md.use(mathjax3);
+  md.use(mdFootnote);
 
   eleventyConfig.setLibrary("md", md);
 
