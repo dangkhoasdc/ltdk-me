@@ -8,9 +8,8 @@ Ta da ta da, something about myself.
 
 I'm currently a Senior Machine Learning Engineer at [Visenze](https://www.visenze.com/) working on [making product search better](https://github.com/dangkhoasdc/awesome-vector-database).
 My noticeable projects:
-
-- Low-level optimization: change the default quantized vector quantization from SDC to ADC.^[It seems stupidly simple, but it was a huge pain since the API in the engine always assumes that both query vectors and index vectors are quantized].
-- [Multisearch](https://www.visenze.com/discovery-suite/modules/multi-search/): completely re-design the search backend. From design the architecture, select backend, derive the algorithm and logic flow, to develop various cool features to enhance end user experiences such as: natural filtering, boosting mechanism, rerank services, adaptive threshold.
+- Re-designed [Multisearch](https://www.visenze.com/discovery-suite/modules/multi-search/) backend, crafting the new search logics, and developing various cool features to enhance end-user experiences such as: natural filtering, boosting mechanism, rerank services.
+- Low-level optimization: Optimize distance calculation of quantized vectors. ^[Changing the default quantized vector quantization from SDC to ADC. It seems stupidly simple, but it was a huge pain since the API in the engine always assumes that both query vectors and index vectors are quantized].
 
 I also spent about 2 years at Visenze to develop on-device ML solutions:
 

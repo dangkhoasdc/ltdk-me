@@ -1,0 +1,4 @@
+Visenze
+mediapipe
+Netlify
+rerank
