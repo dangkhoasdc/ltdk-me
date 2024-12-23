@@ -2,3 +2,6 @@ Visenze
 mediapipe
 Netlify
 rerank
+Detectron
+finetuning
+finetune

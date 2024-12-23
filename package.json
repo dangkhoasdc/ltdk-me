@@ -16,6 +16,7 @@
     "terser": "^5.31.1"
   },
   "dependencies": {
+    "markdown-it-emoji": "^3.0.0",
     "markdown-it-footnote": "^4.0.0"
   }
 }

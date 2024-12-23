@@ -11,6 +11,8 @@ const mathjax3 = require("markdown-it-mathjax3");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const terser = require("terser");
 const CleanCSS = require("clean-css");
+const mdEmoji = require('markdown-it-emoji');
+
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/styles");
@@ -71,6 +73,7 @@ module.exports = function (eleventyConfig) {
   md.use(mdHighlightjs, { auto: false });
 
   md.use(mathjax3);
+  md.use(mdEmoji.full);
   md.use(mdFootnote);
 
   eleventyConfig.setLibrary("md", md);
