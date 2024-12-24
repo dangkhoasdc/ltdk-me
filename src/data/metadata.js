@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   title: "LTDK's Homepage",
   url: "http://ltdk.me",
   language: "en",
