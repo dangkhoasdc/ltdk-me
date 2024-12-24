@@ -4,21 +4,51 @@ title: "LTDK"
 description: "LTDK's Personal Homepage"
 ---
 
-Ta da ta da, something about myself.
+## Résumé
+### Experiences
+**TLDR**: [shorter version](https://www.overleaf.com/read/xrksrvbjptky#7a572b)
 
-I'm currently a Senior Machine Learning Engineer at [Visenze](https://www.visenze.com/) working on [making product search better](https://github.com/dangkhoasdc/awesome-vector-database).
-My noticeable projects:
-- Re-designed [Multisearch](https://www.visenze.com/discovery-suite/modules/multi-search/) backend, crafting the new search logics, and developing various cool features to enhance end-user experiences such as: natural filtering, boosting mechanism, rerank services.
-- Low-level optimization: Optimize distance calculation of quantized vectors. ^[Changing the default quantized vector quantization from SDC to ADC. It seems stupidly simple, but it was a huge pain since the API in the engine always assumes that both query vectors and index vectors are quantized].
+I'm currently a Senior Machine Learning Engineer at [Visenze](https://www.visenze.com/) working on [making product search better](https://github.com/dangkhoasdc/awesome-vector-database):
+- Re-designed [Multisearch](https://www.visenze.com/discovery-suite/modules/multi-search/) backend, i.e., crafting the new search logic, and developing various cool features to enhance end-user experiences such as: natural filtering, boosting mechanism, rerank & recommendation services. I also lead the effort to improve search quality from implementing algorithm codebase, experimenting & finetuning text embedding, to designing virtual agents for annotation tasks.
+- Vector search engine: conducted experiments on [vector search algorithms](https://github.com/dangkhoasdc/awesome-vector-database), benchmarked search quality of SIMD-based vector calculation. ^[Changing the default quantized vector quantization from SDC to ADC. It seems stupidly simple, but it was a huge pain since the engine API always assumes that both query vectors and index vectors are quantized], tuned optimal HNSW with replication settings.
+- Detection Models: overhauled annotation guidelines, upgraded the training framework from Detectron to Pytorch^[the sweet old ancient time of DL], developed and released multiple detection models across all Visenze solutions (search, tagging, recommendation).
 
-I also spent about 2 years at Visenze to develop on-device ML solutions:
+I also spent about 2 years at Visenze developing on-device ML solutions:
 
-1. Built a 3D object labelling solution. It comprises: (1) a AR mobile app that let users capture the object, save all 3D information, (2) an Unity tool to import and refine raw data, (3) a DL training framework to develop a 3D object detection model.
-2. Built several computer vision solutions ([a sneak peak](https://www.youtube.com/shorts/SMwoToz2V54)) on mobile devices. I built DL models designed for low memory usage and fast inference to maintain 30 FPS constraint. I integrated [mediapipe](https://github.com/google-ai-edge/mediapipe) to the existing Unity games via [native plugins](https://docs.unity3d.com/Manual/PluginsForIOS.html). 
+1. Built a 3D object labelling solution. It comprises: (1) an AR mobile app capturing objects and collect 3D data, (2) an Unity tool for importing and refining raw data, and (3) a DL training framework for 3D object detection.
+2. Delivered object tracking & hand gesture recognition solutions ([a sneak peak](https://www.youtube.com/shorts/SMwoToz2V54)) on mobile devices. I developed DL models designed for low memory usage and fast inference to maintain 30 FPS constraint. I integrated [mediapipe](https://github.com/google-ai-edge/mediapipe) to the existing Unity games via [native plugins](https://docs.unity3d.com/Manual/PluginsForIOS.html). The game has more than 10M downloads in Play Store (Android), and stands at top-30 Education apps on iOS Store.
 
-# Misc
+There are other projects I got involved:
+
+- Re-designed the sequential recommendation algorithm.
+- Improved exact product search via new a re-rank logic & advanced data augmentations^[While doing this, I anticipated [Meta's competition](https://www.drivendata.org/competitions/80/competition-image-similarity-2-dev/leaderboard/) and got #12 on the leaderboard].
+
+#### Past
+
+Before joining Visenze, I spent 2.5 years as a research assistant in [Prof Ngai-Man Cheung](https://sites.google.com/site/mancheung0407/) lab at [SUTD](https://www.sutd.edu.sg/) focusing on:
+- **Hashing-based image retrieval**: We were the one of the first tried to jointly learning hashing and vector embedding in end-to-end manner for retrieval task. I [implemented](https://github.com/dangkhoasdc/sah) most of the proposed methods on Caffe and Torch (not Pytorch)^[The good old day when DL engineers code a model in Lua] and contributed to [10 publications](https://scholar.google.com/citations?user=jdYVIZwAAAAJ&hl=en).
+- [Vision-based localization](https://temasek-labs.sutd.edu.sg/research/tl-projects-completed/telamon-urban-area-scene-based-localization-usbl/): We built a 3D model of Singapore from Google Maps to infer user location based on building photos.
+I was responsible for re-implementing the inference framework (originally in MATLAB) to Android devices.
+The most challenging task is to implement *fast* SIFT features on Android devices using shader programs while maintaining the accuracy.
+
+## Education
+
+Since 2023, I have been pursuing [Master of Computing (Artificial Intelligence Specialisation)](https://www.comp.nus.edu.sg/programmes/pg/mai/) (part-time courseworks) at NUS. 
+This program allows me to delve into AI topics that I don’t encounter in my daily work. I've completed several projects:
+- Menu Recommendation using Deep Learning Critic-Actor Framework [[Github](https://github.com/CS5446-BCKR/RLRS), [Report](/assets/docs/CS5446.pdf)]: Thanks to our team member, we have access to order history of a F&B franchise in Singapore. I led implementation and model training. It helps me realize training RL model is painful :sob::sob:.
+- Predicting HDB Rental Price in Singapore [[Github](https://github.com/cs5228-group-1/cs5228-final-project), [Report](/assets/docs/CS5228.pdf)]: we studied rental price increases in Singapore using 2021-2023 HDB data and developed several prediction models, achieving [Top #1](https://www.kaggle.com/competitions/cs5228-2310-final-project/leaderboard?) on the private leaderboard of the competition.
+- Blood Cell Identification [[Report](/assets/docs/CS5242.pdf)]: I proposed an U-Net variant which utilizes segmentation masks to classify 5 leukocytes. It achieves 92.59% accuracy^[TBH, the dataset seems too easy ...] on [the CAM16 dataset](https://camelyon16.grand-challenge.org/Data/).
+
+
+I completed my undergraduate degree at [HCMUS](https://en.hcmus.edu.vn/), where I had the opportunity to engage in several internships:
+
+- I have 1 paper at ICIP on [compact PCA component](https://projet.liris.cnrs.fr/imagine/pub/proceedings/ICIP-2014/Papers/1569902105.pdf)^[My first paper ever.].
+- At [JAIST](https://www.jaist.ac.jp/english/), I conducted research on background subtraction methods. 
+- At [University of Saskatchewan](https://www.usask.ca/), I derived a new method for [white cell counting problem](https://github.com/dangkhoasdc/CellCounter).
+
+## Misc
 
 - A collection of my [favorite books](books).
 
-# Build Status
+## Build Status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a50de616-5c47-410a-84ec-c06112a7154f/deploy-status)](https://app.netlify.com/sites/ltdk-me/deploys)

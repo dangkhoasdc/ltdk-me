@@ -11,6 +11,11 @@ const mathjax3 = require("markdown-it-mathjax3");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const terser = require("terser");
 const CleanCSS = require("clean-css");
+const mdEmoji = require('markdown-it-emoji');
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+const taskLists = require('markdown-it-task-lists');
+
+
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/styles");
@@ -20,6 +25,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(navigationPlugin);
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(UpgradeHelper);
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
@@ -71,7 +77,9 @@ module.exports = function (eleventyConfig) {
   md.use(mdHighlightjs, { auto: false });
 
   md.use(mathjax3);
+  md.use(mdEmoji.full);
   md.use(mdFootnote);
+  md.use(taskLists);
 
   eleventyConfig.setLibrary("md", md);
 
