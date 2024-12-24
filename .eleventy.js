@@ -12,6 +12,7 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const terser = require("terser");
 const CleanCSS = require("clean-css");
 const mdEmoji = require('markdown-it-emoji');
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 
 module.exports = function (eleventyConfig) {
@@ -22,6 +23,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(navigationPlugin);
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(UpgradeHelper);
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
