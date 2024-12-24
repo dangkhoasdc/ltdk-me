@@ -13,6 +13,8 @@ const terser = require("terser");
 const CleanCSS = require("clean-css");
 const mdEmoji = require('markdown-it-emoji');
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+const taskLists = require('markdown-it-task-lists');
+
 
 
 module.exports = function (eleventyConfig) {
@@ -77,6 +79,7 @@ module.exports = function (eleventyConfig) {
   md.use(mathjax3);
   md.use(mdEmoji.full);
   md.use(mdFootnote);
+  md.use(taskLists);
 
   eleventyConfig.setLibrary("md", md);
 
