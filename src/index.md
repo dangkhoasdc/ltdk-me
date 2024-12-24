@@ -5,6 +5,7 @@ description: "LTDK's Personal Homepage"
 ---
 
 ## Résumé
+### Experiences
 **TLDR**: [shorter version](https://www.overleaf.com/read/xrksrvbjptky#7a572b)
 
 I'm currently a Senior Machine Learning Engineer at [Visenze](https://www.visenze.com/) working on [making product search better](https://github.com/dangkhoasdc/awesome-vector-database):
@@ -22,13 +23,17 @@ There are other projects I got involved:
 - Re-designed the sequential recommendation algorithm.
 - Improved exact product search via new a re-rank logic & advanced data augmentations^[While doing this, I anticipated [Meta's competition](https://www.drivendata.org/competitions/80/competition-image-similarity-2-dev/leaderboard/) and got #12 on the leaderboard].
 
-### Past
+#### Past
 
 Before joining Visenze, I spent 2.5 years as a research assistant in [Prof Ngai-Man Cheung](https://sites.google.com/site/mancheung0407/) lab at [SUTD](https://www.sutd.edu.sg/) focusing on:
 - **Hashing-based image retrieval**: We were the one of the first tried to jointly learning hashing and vector embedding in end-to-end manner for retrieval task. I [implemented](https://github.com/dangkhoasdc/sah) most of the proposed methods on Caffe and Torch (not Pytorch)^[The good old day when DL engineers code a model in Lua] and contributed to [10 publications](https://scholar.google.com/citations?user=jdYVIZwAAAAJ&hl=en).
 - [Vision-based localization](https://temasek-labs.sutd.edu.sg/research/tl-projects-completed/telamon-urban-area-scene-based-localization-usbl/): We built a 3D model of Singapore from Google Maps to infer user location based on building photos.
 I was responsible for re-implementing the inference framework (originally in MATLAB) to Android devices.
 The most challenging task is to implement *fast* SIFT features on Android devices using shader programs while maintaining the accuracy.
+
+## Education
+
+I have been taking [Master of Computing (Artificial Intelligence Specialisation)](https://www.comp.nus.edu.sg/programmes/pg/mai/) at [NUS](https://www.comp.nus.edu.sg). 
 
 ## Misc
 
