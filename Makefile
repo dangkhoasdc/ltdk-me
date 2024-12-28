@@ -1,4 +1,7 @@
-.PHONY: serve
+.PHONY: serve install
 
-serve:
+install:
+	npm install
+
+serve: install
 	npm start

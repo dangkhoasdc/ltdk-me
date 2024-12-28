@@ -15,4 +15,5 @@ description: "What am I doing"
     - Also added [vale](https://vale.sh/) to my workflow.
     - Decoupled the deployment of [lora](https://ltdk-lora.netlify.app/) from the homepage.
     - Upgraded to 11ty v3.
+    - Added [Github comments](https://utteranc.es)
 - [x] (VN) Reviewed [Dune](https://www.youtube.com/shorts/JWC_Tpqe9eE).
