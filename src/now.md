@@ -4,6 +4,12 @@ title: "Now"
 description: "What am I doing" 
 ---
 
+## Jan 2025
+
+- Reading [GNU Make Book](https://nostarch.com/gnumake).
+- Done:
+    - [DevOps, DataOps, MLOps](https://www.coursera.org/learn/devops-dataops-mlops-duke): 2/5 - NOT Recommended.
+
 ## Dec 2024
 
 - Reading [The Silmarillion](https://en.wikipedia.org/wiki/The_Silmarillion).
