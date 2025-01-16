@@ -13,7 +13,9 @@ description: "LTDK's Personal Homepage"
 ### Experiences
 
 I'm currently a Senior Machine Learning Engineer at [Visenze](https://www.visenze.com/) working on [making product search better](https://github.com/dangkhoasdc/awesome-vector-database):
-- Re-designed [Multisearch](https://www.visenze.com/discovery-suite/modules/multi-search/), i.e., crafting the new search logic, and developing various features to enhance end-user experiences: natural filtering, boosting mechanism, rerank & recommendation services. I also lead the effort to improve search quality: from implementing algorithm codebase, experimenting & finetuning text embedding, to designing virtual agents for annotation tasks.
+- Re-designed [Multisearch](https://www.visenze.com/discovery-suite/modules/multi-search/), i.e., crafting the new search logic, and developing various features to enhance end-user experiences: rerank & recommendation services, natural filtering, boosting mechanism, [adaptive threshold](/posts/adaptive_threshold/). 
+I also lead the effort to improve search quality: from implementing algorithm codebase, experimenting & finetuning text embedding, to designing virtual agents for annotation tasks.
+
 - Vector search engine: conducted experiments on [vector search algorithms](https://github.com/dangkhoasdc/awesome-vector-database), benchmarked search quality of SIMD-based vector calculation. ^[Changing the default quantized vector quantization from SDC to ADC. It seems stupidly simple, but it was a huge pain since the engine API always assumes that both query vectors and index vectors are quantized], tuned optimal HNSW with replication settings.
 - Detection Models: overhauled annotation guidelines, upgraded the training framework from Detectron to Pytorch^[the sweet old ancient time of DL], developed and released multiple detection models across all Visenze solutions (search, tagging, recommendation).
 
