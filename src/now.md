@@ -6,6 +6,11 @@ description: "What am I doing"
 
 ## Jan 2025
 
+- Working on:
+    - Spell checker - I'll write a post about modern design of spell checker for product search.
+    - Introduce personalization to rerank.
+    - Try [LoRA](https://huggingface.co/docs/peft/main/en/conceptual_guides/lora) on language models.
+    
 - study@NUS: this semester I'll take [Cloud Computing](https://nusmods.com/courses/CS5224/cloud-computing) and [Text Mining](https://nusmods.com/courses/CS5246/text-mining) courses.
 
 - Reading
