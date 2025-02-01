@@ -4,6 +4,11 @@ title: "Now"
 description: "What am I doing" 
 ---
 
+## Feb 2025
+- Reading
+    - [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/)
+    - [x] DNF [Mastering Regular Expressions](https://www.goodreads.com/book/show/583628.Mastering_Regular_Expressions?ac=1&from_search=true&qid=8SA0b4fk0c&rank=1). [My short review](https://www.goodreads.com/review/show/4888412307)
+
 ## Jan 2025
 
 - Working on:
