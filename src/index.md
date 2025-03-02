@@ -46,6 +46,8 @@ This program allows me to delve into AI topics that I don’t encounter in my da
 - Menu Recommendation using Deep Learning Critic-Actor Framework [[Github](https://github.com/CS5446-BCKR/RLRS), [Report](/assets/docs/CS5446.pdf)]: Thanks to our team member, we have access to order history of a F&B franchise in Singapore. I led implementation and model training. It helps me realize training RL model is painful :sob::sob:.
 - Predicting HDB Rental Price in Singapore [[Github](https://github.com/cs5228-group-1/cs5228-final-project), [Report](/assets/docs/CS5228.pdf)]: we studied rental price increases in Singapore using 2021-2023 HDB data and developed several prediction models, achieving [Top #1](https://www.kaggle.com/competitions/cs5228-2310-final-project/leaderboard?) on the private leaderboard of the competition.
 - Blood Cell Identification [[Report](/assets/docs/CS5242.pdf)]: I proposed an U-Net variant which utilizes segmentation masks to classify 5 leukocytes. It achieves 92.59% accuracy^[TBH, the dataset seems too easy ...] on [the CAM16 dataset](https://camelyon16.grand-challenge.org/Data/).
+- (In Progress) Can Sport or Not: a Software-as-a-Service (SaaS) application designed to provide real-time, location-based updates on the availability of public sporting facilities. Users can instantly check if their desired facility is open, closed, at maximum capacity, or actively seeking additional players for a game.
+- (In Progress) TemporalLens: an AI-driven pipeline tracking emerging topics, constructs event timelines & knowledge graphs, analyzes sentiment shifts
 
 
 I completed my undergraduate degree at [HCMUS](https://en.hcmus.edu.vn/), where I had the opportunity to engage in several internships:

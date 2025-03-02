@@ -4,14 +4,23 @@ title: "Now"
 description: "What am I doing" 
 ---
 
+## Mar 2025
+
+- Stay tuned ... 
+
 ## Feb 2025
+
+- A lot of coding & hacking:
+    - Developing backend services for sport facility recommendation.
+    - Play around with event detection and knowledge graph construction.
+
 - Reading
     - [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/)
     - [x] DNF [Mastering Regular Expressions](https://www.goodreads.com/book/show/583628.Mastering_Regular_Expressions?ac=1&from_search=true&qid=8SA0b4fk0c&rank=1). [My short review](https://www.goodreads.com/review/show/4888412307)
 
 ## Jan 2025
 
-- Working on:
+- ~~Working on~~ . DNF:
     - Spell checker - I'll write a post about modern design of spell checker for product search.
     - Introduce personalization to rerank.
     - Try [LoRA](https://huggingface.co/docs/peft/main/en/conceptual_guides/lora) on language models.
