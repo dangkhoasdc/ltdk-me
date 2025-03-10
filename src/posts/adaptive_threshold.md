@@ -61,6 +61,12 @@ Why not use a mixture model approach?
 It needs data to train although ChatGPT can surely annotate them, it would complicate the release timeline. 
 Meanwhile, DL-based approach seems too excessive and hasn't shown significant improvement.
 
+# Caveats
+
+This surely is not an optimal solution. After releasing this feature, we observed several issues:
+- The current implementation prioritizes precision by cutting off the rank list as early as possible, which dramatically reduces recall. This is detrimental to product search.
+- The score distribution for each query is heavily influenced by the query type, whether it's exact, feature, or symptom-based search. Each type may exhibit a different distribution. For instance, we might want to continue returning partially relevant results for exact searches, as this can enhance recall and potentially improve conversion rates.
+
 # References
 
 1. Arampatzis, Avi, Jaap Kamps, and Stephen Robertson. "Where to stop reading a ranked list? Threshold optimization using truncated score distributions." Proceedings of the 32nd international ACM SIGIR conference on Research and development in information retrieval. 2009.
