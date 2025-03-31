@@ -6,7 +6,7 @@ description: "LTDK's Personal Homepage"
 
 ## Résumé
 
-**TLDR**: [shorter version](https://www.overleaf.com/read/xrksrvbjptky#7a572b)
+**TLDR**: [shorter version](/assets/cv.pdf)
 
 ---
 
