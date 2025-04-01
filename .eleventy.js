@@ -14,6 +14,7 @@ const CleanCSS = require("clean-css");
 const mdEmoji = require('markdown-it-emoji');
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 const taskLists = require('markdown-it-task-lists');
+const mdCallouts = require('markdown-it-obsidian-callouts');
 
 
 
@@ -80,6 +81,7 @@ module.exports = function (eleventyConfig) {
   md.use(mdEmoji.full);
   md.use(mdFootnote);
   md.use(taskLists);
+  md.use(mdCallouts)
 
   eleventyConfig.setLibrary("md", md);
 
