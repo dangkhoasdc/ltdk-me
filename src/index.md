@@ -10,7 +10,9 @@ description: "LTDK's Personal Homepage"
 
 ---
 
-### Experiences
+## Experiences
+
+### Now
 
 I'm currently a Senior Machine Learning Engineer at [Visenze](https://www.visenze.com/) working on [making product search better](https://github.com/dangkhoasdc/awesome-vector-database):
 - Re-designed [Multisearch](https://www.visenze.com/discovery-suite/modules/multi-search/), i.e., crafting the new search logic, and developing various features to enhance end-user experiences: rerank & recommendation services, natural filtering, boosting mechanism, [adaptive threshold](/posts/adaptive_threshold/). 
@@ -21,7 +23,7 @@ I also lead the effort to improve search quality: from implementing algorithm co
 
 I also spent about 2 years at Visenze developing on-device ML solutions:
 
-1. Built a 3D object labelling solution. It comprises: (1) an AR mobile app capturing objects and collect 3D data, (2) an Unity tool for importing and refining raw data, and (3) a DL training framework for 3D object detection.
+1. Built a 3D object labelling solution. It comprises: (1) an AR mobile app capturing objects and collect 3D data, (2) an Unity tool for importing and refining raw data, and (3) a 3D object detection codebase for training, evaluation and visualization.
 2. Delivered object tracking & hand gesture recognition solutions ([a sneak peak](https://www.youtube.com/shorts/SMwoToz2V54)) on mobile devices.
 I developed DL models designed for low memory usage and fast inference to maintain 30 FPS constraint and integrated it to the existing Unity games via [native plugins](https://docs.unity3d.com/Manual/PluginsForIOS.html).
 The game has more than 10M downloads on Play Store (Android), and stands at top-30 Education apps on iOS Store.
@@ -31,7 +33,7 @@ Other projects I got involved:
 - Re-designed the sequential recommendation algorithm.
 - Improved exact product search via new a re-rank logic & advanced data augmentations^[While doing this, I anticipated [Meta's competition](https://www.drivendata.org/competitions/80/competition-image-similarity-2-dev/leaderboard/) and got #12 on the leaderboard].
 
-#### Past
+### Past
 
 Before joining Visenze, I spent 2.5 years as a research assistant in [Prof Ngai-Man Cheung](https://sites.google.com/site/mancheung0407/) lab at [SUTD](https://www.sutd.edu.sg/) focusing on:
 - **Hashing-based image retrieval**: We were the one of the first tried to jointly learning hashing and vector embedding in end-to-end manner for retrieval task. I [implemented](https://github.com/dangkhoasdc/sah) most of the proposed methods on Caffe and Torch (not Pytorch)^[The good old day when DL engineers code a model in Lua] and contributed to [10 publications](https://scholar.google.com/citations?user=jdYVIZwAAAAJ&hl=en).
@@ -41,20 +43,33 @@ The most challenging task is to implement *fast* SIFT features on Android device
 
 ## Education
 
+### Now
+
 Since 2023, I have been pursuing [Master of Computing (Artificial Intelligence Specialisation)](https://www.comp.nus.edu.sg/programmes/pg/mai/) (part-time courseworks) at NUS. 
 This program allows me to delve into AI topics that I don’t encounter in my daily work. I've completed several projects:
 - Menu Recommendation using Deep Learning Critic-Actor Framework [[Github](https://github.com/CS5446-BCKR/RLRS), [Report](/assets/docs/CS5446.pdf)]: Thanks to our team member, we have access to order history of a F&B franchise in Singapore. I led implementation and model training. It helps me realize training RL model is painful :sob::sob:.
 - Predicting HDB Rental Price in Singapore [[Github](https://github.com/cs5228-group-1/cs5228-final-project), [Report](/assets/docs/CS5228.pdf)]: we studied rental price increases in Singapore using 2021-2023 HDB data and developed several prediction models, achieving [Top #1](https://www.kaggle.com/competitions/cs5228-2310-final-project/leaderboard?) on the private leaderboard of the competition.
-- Blood Cell Identification [[Report](/assets/docs/CS5242.pdf)]: I proposed an U-Net variant which utilizes segmentation masks to classify 5 leukocytes. It achieves 92.59% accuracy^[TBH, the dataset seems too easy ...] on [the CAM16 dataset](https://camelyon16.grand-challenge.org/Data/).
+- Blood Cell Identification [[Report](/assets/docs/CS5242.pdf)]: I proposed an U-Net variant which utilizes segmentation masks to classify 5 leukocytes. It achieves 92.59% accuracy^[TBH, the dataset seems too easy.] on [the CAM16 dataset](https://camelyon16.grand-challenge.org/Data/).
 - (In Progress) Can Sport or Not: a Software-as-a-Service (SaaS) application designed to provide real-time, location-based updates on the availability of public sporting facilities. Users can instantly check if their desired facility is open, closed, at maximum capacity, or actively seeking additional players for a game.
 - (In Progress) TemporalLens: an AI-driven pipeline tracking emerging topics, constructs event timelines & knowledge graphs, analyzes sentiment shifts
 
+
+### Past
 
 I completed my undergraduate degree at [HCMUS](https://en.hcmus.edu.vn/), where I had the opportunity to engage in several internships:
 
 - I have 1 paper at ICIP on [compact PCA component](https://projet.liris.cnrs.fr/imagine/pub/proceedings/ICIP-2014/Papers/1569902105.pdf)^[My first paper ever.].
 - At [JAIST](https://www.jaist.ac.jp/english/), I conducted research on background subtraction methods. 
 - At [University of Saskatchewan](https://www.usask.ca/), I derived a new method for [white cell counting problem](https://github.com/dangkhoasdc/CellCounter).
+
+## Skills 
+### Programming Languages
+- Professions: Python, Go, C++, Java, C#.
+- Hobbies: Julia, D, Crystal, Nim, Racket.
+
+### Tools
+- Professions: PyTorch, HuggingFace, Mediapipe, OpenCV, Sklearn, Unity, Docker, Latex, XGBoost.
+- Hobbies: Raylib, ImGui. 
 
 ## Misc
 
