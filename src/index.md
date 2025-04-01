@@ -24,8 +24,8 @@ I also lead the effort to improve search quality: from implementing algorithm co
 I also spent about 2 years at Visenze developing on-device ML solutions:
 
 1. Built a 3D object labelling solution. It comprises: (1) an AR mobile app capturing objects and collect 3D data, (2) an Unity tool for importing and refining raw data, and (3) a 3D object detection codebase for training, evaluation and visualization.
-2. Delivered object tracking & hand gesture recognition solutions ([a sneak peak](https://www.youtube.com/shorts/SMwoToz2V54)) on mobile devices.
-I developed DL models designed for low memory usage and fast inference to maintain 30 FPS constraint and integrated it to the existing Unity games via [native plugins](https://docs.unity3d.com/Manual/PluginsForIOS.html).
+2. Delivered virtual try-on ([a sneak peak](https://www.youtube.com/shorts/SMwoToz2V54)), object tracking, and hand gesture recognition solutions on mobile devices.
+I developed DL models designed for low memory usage and fast inference to maintain 30 FPS constraint and integrated it to the existing Unity games via native plugins.
 The game has more than 10M downloads on Play Store (Android), and stands at top-30 Education apps on iOS Store.
 
 Other projects I got involved:
