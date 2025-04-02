@@ -88,6 +88,20 @@ main {
   top: 0;
 }
 
+.toc {
+  line-height: 1.5rem;
+  text-align: left;
+}
+.toc a:hover,
+.toc a.active {
+}
+.toc a {
+  padding: 0px;
+  cursor: pointer;
+}
+.toc ol {
+}
+
 a {
   color: var(--clr-link);
 }

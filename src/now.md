@@ -4,10 +4,11 @@ title: "Now"
 description: "What am I doing" 
 ---
 
-## April 2025
+# 2025
+## April 
 - Stay tuned ...
 
-## Mar 2025
+## Mar 
 
 - Spent a considerable effort to hunt down search bad cases reported by customers. To reproduce the issus is easy, but to actually pin down where is the root cause is a completely different story. Long story short, sparse embedding causes most of the issue due to wrong expanding terms.
 - Developed new codebase for embedding finetuning. Loved [uv](https://github.com/astral-sh/uv) after completely switching to it. I also reported some bugs to [neural-cherche](https://github.com/raphaelsty/neural-cherche/issues?q=is%3Aissue%20state%3Aopen%20author%3Adangkhoasdc). Still struggled to get good performance on Splade, SparseEmbed gave me some hope, but not much. 
@@ -20,7 +21,7 @@ description: "What am I doing"
     - Tried some event detection models and implemented event deduplication. I don't like the idea of using LLM for everything, but LLM actually is the best out-of-the-box solution for event detection.
     - Lots of coding for the other project: learned more about OpenAPI, FastAPI, mongoDB …
 
-## Feb 2025
+## Feb 
 
 - A lot of coding & hacking:
     - Developing backend services for sport facility recommendation.
@@ -30,7 +31,7 @@ description: "What am I doing"
     - [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/)
     - [x] DNF [Mastering Regular Expressions](https://www.goodreads.com/book/show/583628.Mastering_Regular_Expressions?ac=1&from_search=true&qid=8SA0b4fk0c&rank=1). [My short review](https://www.goodreads.com/review/show/4888412307)
 
-## Jan 2025
+## Jan 
 
 - ~~Working on~~ . DNF:
     - Spell checker - I'll write a post about modern design of spell checker for product search.
@@ -48,7 +49,8 @@ description: "What am I doing"
     - [DevOps, DataOps, MLOps](https://www.coursera.org/learn/devops-dataops-mlops-duke): 2/5 - NOT Recommended.
     - [GNU Make Book](https://nostarch.com/gnumake): [Review](https://www.goodreads.com/review/show/3546681067).
 
-## Dec 2024
+# 2024
+## Dec
 
 - Reading [The Silmarillion](https://en.wikipedia.org/wiki/The_Silmarillion).
 - Working on [threshold optimization](/posts/adaptive_threshold).

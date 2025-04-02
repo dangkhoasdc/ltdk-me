@@ -19,6 +19,12 @@
               </div>
             </details>
           </div>
+          {% if content | toc %}
+          <div class="toc">
+            <h3 style="text-align: right;"> Table of Contents </h3>
+            {{ content | toc | safe }}
+          </div>
+          {% endif %}
         </div>
       </aside>
       <main>
