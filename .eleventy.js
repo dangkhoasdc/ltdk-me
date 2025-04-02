@@ -71,12 +71,11 @@ module.exports = function (eleventyConfig) {
   });
 
   md.use(mdTableOfContents, {
-    containerHeaderHtml: "<h2>Table of Contents</h2>",
+    containerHeaderHtml: "<h3>Table of Contents</h3>",
     containerClass: "table-of-contents",
   });
 
   md.use(mdHighlightjs, { auto: false });
-
   md.use(mathjax3);
   md.use(mdEmoji.full);
   md.use(mdFootnote);
