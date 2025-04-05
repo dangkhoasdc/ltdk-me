@@ -19,7 +19,7 @@ I'm currently a Senior Machine Learning Engineer at [Visenze](https://www.visenz
 I also lead the effort to improve search quality: from implementing algorithm codebase, experimenting & finetuning text embedding, to designing virtual agents for annotation tasks.
 
 - Vector search engine: conducted experiments on [vector search algorithms](https://github.com/dangkhoasdc/awesome-vector-database), benchmarked search quality of SIMD-based vector calculation. ^[Changing the default quantized vector quantization from SDC to ADC. It seems stupidly simple, but it was a huge pain since the engine API always assumes that both query vectors and index vectors are quantized], tuned optimal HNSW with replication settings.
-- Detection Models: overhauled annotation guidelines, upgraded the training framework from Detectron to Pytorch^[the sweet old ancient time of DL], developed and released multiple detection models across all Visenze solutions (search, tagging, recommendation).
+- [Object Detection](/detect): overhauled annotation guidelines, upgraded the training framework from Detectron to Pytorch^[the sweet old ancient time of DL], developed and released multiple detection models across all Visenze solutions (search, tagging, recommendation).
 
 I also spent about 2 years at Visenze developing on-device ML solutions:
 

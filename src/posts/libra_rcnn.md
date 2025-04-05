@@ -6,6 +6,8 @@ eleventyNavigation:
     key: Libra-RCNN
     parent: Posts
 date: 2019-06-13
+tags:
+    - object detection
 ---
 
 Pang, Jiangmiao, et al. "[Libra r-cnn: Towards balanced learning for object detection.](https://openaccess.thecvf.com/content_CVPR_2019/papers/Pang_Libra_R-CNN_Towards_Balanced_Learning_for_Object_Detection_CVPR_2019_paper.pdf)" Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2019.

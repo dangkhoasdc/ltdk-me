@@ -6,6 +6,8 @@ eleventyNavigation:
     key: GroupNorm
     parent: Posts
 date: 2019-01-01
+tags:
+    - object detection
 ---
 >After several tries, I have found out that GroupNorm works surprisingly well
 >on detection models. Just turn on the GroupNorm of FPN and I can get an
