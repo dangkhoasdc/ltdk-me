@@ -13,8 +13,7 @@ The programming exercise is from TAoCP, Vol3, 5.1.1-6:
 
 > Design an algorithm that computes the inversion table $b_1, b_2 \cdots b_n$ corresponding to a given permutation $a_1a_2 \cdots a_n$ of ${1, 2, \cdots , n}$,where the running time is essentially proportional to $n\ log n$ on typical  computers.
 
-I was really stuck on the solution Knuth given in the book. The author also mentioned another approach which is a modification of merge sort. 
-But let first understand the algorithm using bitwise.
+I was really stuck on the solution Knuth given in the book. The author also mentioned another approach which actually is a modification of merge sort. But let first understand the algorithm using bitwise.
 
 # Implementation
 
