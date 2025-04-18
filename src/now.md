@@ -6,11 +6,15 @@ description: "What am I doing"
 
 # 2025
 ## April 
-- Stay tuned ...
+
+- Finished both Cloud Computing & Text Mining courses. Both are practical and I pretty like them, although I wish I can spent more times on some topic taught in lectures.
+- Working on:
+    - Non-English product search, i.e., adding supports to the indexing backend and autocomplete services.
+    - Synonym supports. It's more about allowing merchandisers to define their our product taxonomy, the most tricky part is how to adapt vector search to the customized definition from users w/o re-training models for each customer.
 
 ## Mar 
 
-- Spent a considerable effort to hunt down search bad cases reported by customers. To reproduce the issus is easy, but to actually pin down where is the root cause is a completely different story. Long story short, sparse embedding causes most of the issue due to wrong expanding terms.
+- Spent a considerable effort to hunt down search bad cases reported by customers. Reproducing issues is easy, but actually pinning the root cause is a completely different story. Long story short, it is due to wrong expanding terms for sparse models.
 - Developed new codebase for embedding finetuning. Loved [uv](https://github.com/astral-sh/uv) after completely switching to it. I also reported some bugs to [neural-cherche](https://github.com/raphaelsty/neural-cherche/issues?q=is%3Aissue%20state%3Aopen%20author%3Adangkhoasdc). Still struggled to get good performance on Splade, SparseEmbed gave me some hope, but not much. 
 - Reading
     - [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/information-retrieval-book.html)
