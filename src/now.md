@@ -5,17 +5,26 @@ description: "What am I doing"
 ---
 
 # 2025
+## May
+
+- Read:
+    - [AI-Powered Search](https://www.goodreads.com/book/show/223393598-ai-powered-search).
+    - [Algorithmic Thinking](https://www.amazon.com/Algorithmic-Thinking-2nd-Problem-Based-Introduction).
+
 ## April 
 
-- Finished both Cloud Computing & Text Mining courses. Both are practical and I pretty like them, although I wish I can spent more times on some topic taught in lectures.
-- Working on:
-    - Non-English product search, i.e., adding supports to the indexing backend and autocomplete services.
-    - Synonym supports. It's more about allowing merchandisers to define their our product taxonomy, the most tricky part is how to adapt vector search to the customized definition from users w/o re-training models for each customer.
+- Finished both Cloud Computing & Text Mining courses. Both are practical and I pretty like them, although I wish I can spent more times on some topics taught in lectures.
+- Worked on:
+    - Non-English product search: adding non-English supports to the indexing backend and autocomplete services.
+    - Synonym set support: It's more about allowing merchandisers to define their our product taxonomy, the most tricky part is how to adapt vector search to the customized definition from users w/o re-training models for each customer.
+- Read:
+    - [AI-Powered Search](https://www.goodreads.com/book/show/223393598-ai-powered-search).
+    - [Algorithmic Thinking](https://www.amazon.com/Algorithmic-Thinking-2nd-Problem-Based-Introduction).
 
 ## Mar 
 
 - Spent a considerable effort to hunt down search bad cases reported by customers. Reproducing issues is easy, but actually pinning the root cause is a completely different story. Long story short, it is due to wrong expanding terms for sparse models.
-- Developed new codebase for embedding finetuning. Loved [uv](https://github.com/astral-sh/uv) after completely switching to it. I also reported some bugs to [neural-cherche](https://github.com/raphaelsty/neural-cherche/issues?q=is%3Aissue%20state%3Aopen%20author%3Adangkhoasdc). Still struggled to get good performance on Splade, SparseEmbed gave me some hope, but not much. 
+- Developed new codebase for embedding finetuning. Loved [uv](https://github.com/astral-sh/uv) after completely switching to it. I also reported some bugs to [neural-cherche](https://github.com/raphaelsty/neural-cherche/issues?q=is%3Aissue%20state%3Aopen%20author%3Adangkhoasdc). Still struggled to get good performance on Splade, SparseEmbed gave me some hope, but not much.
 - Reading
     - [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/information-retrieval-book.html)
     - [Amazon Web Services in Action](https://www.goodreads.com/book/show/60828856-amazon-web-services-in-action-third-edition): Assisted in completing assignments.
