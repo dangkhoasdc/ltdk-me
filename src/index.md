@@ -15,7 +15,7 @@ description: "LTDK's Personal Homepage"
 ### Now
 
 I'm currently a Senior Machine Learning Engineer at [Visenze](https://www.visenze.com/) working on [making product search better](https://github.com/dangkhoasdc/awesome-vector-database):
-- Re-designed [Multisearch](https://www.visenze.com/discovery-suite/modules/multi-search/), i.e., crafting the new search logic, and developing various features to enhance end-user experiences: rerank & recommendation services, natural filtering, boosting mechanism, [adaptive threshold](/posts/adaptive_threshold/). 
+- Re-designed [Multisearch](https://www.visenze.com/discovery-suite/modules/multi-search/), i.e., crafting the new search logic, and developing various features to enhance end-user experiences: rerank & recommendation services, natural filtering, boosting mechanism, [adaptive threshold](/posts/adaptive_threshold/), autocompletion service. 
 I also lead the effort to improve search quality: from implementing algorithm codebase, experimenting & finetuning text embedding, to designing virtual agents for annotation tasks.
 
 - Vector search engine: conducted experiments on [vector search algorithms](https://github.com/dangkhoasdc/awesome-vector-database), benchmarked search quality of SIMD-based vector calculation. ^[Changing the default quantized vector quantization from SDC to ADC. It seems stupidly simple, but it was a huge pain since the engine API always assumes that both query vectors and index vectors are quantized], tuned optimal HNSW with replication settings.
@@ -49,8 +49,9 @@ Since 2023, I have been pursuing [Master of Computing (Artificial Intelligence S
 This program allows me to delve into AI topics that I don’t encounter in my daily work. I've completed several projects:
 - Menu Recommendation using Deep Learning Critic-Actor Framework [[Github](https://github.com/CS5446-BCKR/RLRS), [Report](/assets/docs/CS5446.pdf)]: Thanks to our team member, we have access to order history of a F&B franchise in Singapore. I led implementation and model training. It helps me realize training RL model is painful :sob::sob:.
 - Predicting HDB Rental Price in Singapore [[Github](https://github.com/cs5228-group-1/cs5228-final-project), [Report](/assets/docs/CS5228.pdf)]: we studied rental price increases in Singapore using 2021-2023 HDB data and developed several prediction models, achieving [Top #1](https://www.kaggle.com/competitions/cs5228-2310-final-project/leaderboard?) on the private leaderboard of the competition.
-- Blood Cell Identification [[Report](/assets/docs/CS5242.pdf)]: I proposed an U-Net variant which utilizes segmentation masks to classify 5 leukocytes. It achieves 92.59% accuracy^[TBH, the dataset seems too easy.] on [the CAM16 dataset](https://camelyon16.grand-challenge.org/Data/).
-- Can Sport or Not: a Software-as-a-Service (SaaS) application designed to provide real-time, location-based updates on the availability of public sporting facilities. Users can instantly check if their desired facility is open, closed, at maximum capacity, or actively seeking additional players for a game.
+- [Blood Cell Identification](/assets/docs/CS5242.pdf): I proposed an U-Net variant which utilizes segmentation masks to classify 5 leukocytes. It achieves 92.59% accuracy^[TBH, the dataset seems too easy.] on [the CAM16 dataset](https://camelyon16.grand-challenge.org/Data/).
+- [LightningCat](/assets/docs/CS5224.pdf): a cloud-based SaaS platform that provides real-time updates on Singapore's sporting facilities, including operational status, capacity, weather-related closures, booking slots, 
+through an intuitive map interface to optimize facility usage and foster community engagement.
 - [TemporalLens](/assets/docs/CS5246.pdf): an AI-driven pipeline tracking emerging topics, constructs event timelines & knowledge graphs, analyzes sentiment shifts.
 
 
