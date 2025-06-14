@@ -5,6 +5,11 @@ description: "What am I doing"
 ---
 
 # 2025
+## Jun
+
+- On-device ML deployment: Upgrade our customized Mediapipe for the latest Unity (6.1) as well as the new SDK from Android & iOS.
+- Develop a product summarizer service using ChatGPT.
+
 ## May
 
 - Read:
