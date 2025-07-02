@@ -7,8 +7,14 @@ description: "What am I doing"
 # 2025
 ## Jun
 
-- On-device ML deployment: Upgrade our customized Mediapipe for the latest Unity (6.1) as well as the new SDK from Android & iOS.
-- Develop a product summarizer service using ChatGPT.
+- On-device ML deployment: Upgrade our customized Mediapipe for the latest Unity (6.1) as well as the new SDK from Android & iOS. The in-house version is way too old and has many issues, I will probably need to fork mediapipe again and re-implement our SDKs.
+
+- Develop a product summarizer service using ChatGPT. POC is easy, developing a production-ready service is not. The main challenge is the fact that LLM is not a "real-time" service, and to save cost, we may need to use Batch API. For that, a whole new service need to be developed, focusing on batch processing and handling race condition between database updates and batch processing.
+
+- Read:
+    - [AI-Powered Search](https://www.goodreads.com/book/show/223393598-ai-powered-search).
+    - [Algorithmic Thinking](https://www.amazon.com/Algorithmic-Thinking-2nd-Problem-Based-Introduction).
+    - [x] [Distributed Services with Go](https://www.goodreads.com/review/show/5620033205)
 
 ## May
 
