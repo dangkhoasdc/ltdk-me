@@ -6,7 +6,17 @@ description: "What am I doing"
 
 # 2025
 
-## July
+## Sep
+
+- The new requirement from Google for apps to publish to store, i.e, [supporting 16kb page size](https://developer.android.com/guide/practices/page-sizes) took me several days to figure out.
+- During PR review, I need to revise the current C4 diagram & sequence diagrams of the new service. Previously I used [mermaid](https://mermaid.js.org) for drawing, but later found [planttext](https://www.planttext.com) is much better.
+
+## Aug
+
+- The new service for LLM-based production is about 80% done. Also, spent time reading queue systems, mostly SQS.
+- Got my hand dirty with AWS SDK, Redis, Docker for the brand new service. Also, learned a lot about writing production-ready Golang code.
+
+## Jul
 
 - Designed and implemented an LLM-based product ingestion service. Due to the latency of LLM inference, integrating this service with the existing product indexing pipeline would violate current SLA requirements.
 - The new service is implemented in Golang (previously I want to use Python - but app size may affect service startup time). Some books helped me a lot:
@@ -31,7 +41,7 @@ description: "What am I doing"
   - [AI-Powered Search](https://www.goodreads.com/book/show/223393598-ai-powered-search).
   - [Algorithmic Thinking](https://www.amazon.com/Algorithmic-Thinking-2nd-Problem-Based-Introduction).
 
-## April
+## Apr
 
 - Finished both Cloud Computing & Text Mining courses. Both are practical and I pretty like them, although I wish I can spent more times on some topics taught in lectures.
 - Worked on:

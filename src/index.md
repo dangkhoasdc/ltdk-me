@@ -8,7 +8,7 @@ description: "LTDK's Personal Homepage"
 
 **TLDR**: [shorter version](/assets/cv.pdf)
 
----
+--
 
 ## Experiences
 
