@@ -10,6 +10,12 @@ description: "What am I doing"
 
 - The new requirement from Google for apps to publish to store, i.e, [supporting 16kb page size](https://developer.android.com/guide/practices/page-sizes) took me several days to figure out.
 - During PR review, I need to revise the current C4 diagram & sequence diagrams of the new service. Previously I used [mermaid](https://mermaid.js.org) for drawing, but later found [planttext](https://www.planttext.com) is much better.
+- Studied [spectral theory](https://en.wikipedia.org/wiki/Spectral_theory) and its applications in ML such as [spectral clustering](https://en.wikipedia.org/wiki/Spectral_clustering), Graph SVM, and recommendation.
+- Studied [queueing theory](https://en.wikipedia.org/wiki/Queueing_theory) for computer system performance analysis.
+- Read:
+  - [Linear Algebra for Data Science, Machine Learning, and Signal Processing](https://www.goodreads.com/book/show/201643974-linear-algebra-for-data-science-machine-learning-and-signal-processing)
+  - [The Art of Computer Systems Performance Analysis](https://www.goodreads.com/book/show/430782.The_Art_of_Computer_Systems_Performance_Analysis?ref=nav_sb_ss_1_31)
+  - [Queueing Systems, Volume 1: Theory](https://www.goodreads.com/book/show/2298875.Queueing_Systems_Volume_1?ref=nav_sb_ss_2_15)
 
 ## Aug
 
