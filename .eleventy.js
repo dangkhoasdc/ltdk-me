@@ -16,6 +16,7 @@ const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 const taskLists = require('markdown-it-task-lists');
 const mdCallouts = require('markdown-it-obsidian-callouts');
 const pluginTOC = require('eleventy-plugin-toc')
+const poison = require("eleventy-plugin-poison");
 
 
 
@@ -29,6 +30,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(UpgradeHelper);
   eleventyConfig.addPlugin(pluginTOC, {'tags': ['h1']});
+  eleventyConfig.addPlugin(poison, {
+    includeCSS: true,
+  });
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
