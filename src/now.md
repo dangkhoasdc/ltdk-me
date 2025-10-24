@@ -6,6 +6,17 @@ description: "What am I doing"
 
 # 2025
 
+## Oct
+
+- Experimented with [Quartz](https://quartz.jzhao.xyz). I gonna use it for my upcoming "Fun with Data Structures & Algorithms" (Definitely need a better name) series.
+- Been working on Graph Neural Networks for question classification. Played with [geometric pytorch](https://github.com/pyg-team/pytorch_geometric) quite alot.
+- Looking for better note-taking apps. In the past, I used the combination of UpNote, Obsidian, and RemNote.
+Lately, I found [Logseq](https://logseq.com/) is a great alternative to the above apps.
+- Found [sphinx_literate](https://github.com/eliemichel/sphinx_literate) which maybe the best literate tool at the moment. Look at [this beauty](https://eliemichel.github.io/LearnWebGPU/).
+- Read:
+    - [Linear Algebra for Data Science, Machine Learning, and Signal Processing](https://www.goodreads.com/book/show/201643974-linear-algebra-for-data-science-machine-learning-and-signal-processing)
+    - [System Performance: Enterprise and the Cloud, 2nd Edition](https://www.goodreads.com/book/show/18058001-systems-performance)
+
 ## Sep
 
 - The new requirement from Google for apps to publish to store, i.e, [supporting 16kb page size](https://developer.android.com/guide/practices/page-sizes) took me several days to figure out.
