@@ -17,18 +17,25 @@ description: "What am I doing"
   - [The Art of Computer Systems Performance Analysis](https://www.goodreads.com/book/show/430782.The_Art_of_Computer_Systems_Performance_Analysis?ref=nav_sb_ss_1_31)
   - [Queueing Systems, Volume 1: Theory](https://www.goodreads.com/book/show/2298875.Queueing_Systems_Volume_1?ref=nav_sb_ss_2_15)
 
-## Aug
+## August
 
-- The new service for LLM-based production is about 80% done. Also, spent time reading queue systems, mostly SQS.
-- Got my hand dirty with AWS SDK, Redis, Docker for the brand new service. Also, learned a lot about writing production-ready Golang code.
+- Spent considerable time on model deployment. I wanted to break the existing design of our ML infrastructure which is out dated and troublesome to deployed. Went to [MLServer](https://mlserver.readthedocs.io/en/latest/getting-started/index.html), simplified the deployment by removing the dependencies on other service, also removed several redudant communication between services. At the end, I still need update 4 different services.
+- Started the final semester at NUS. I took 2 courses which seems unrelated to each other: [Graph Machine Learning](https://nusmods.com/courses/CS5284/graph-machine-learning), [Computer System Performance Analysis](https://nusmods.com/courses/CS5239/computer-system-performance-analysis).
+- Reading:
+  - [Test-driven development in Go](https://www.goodreads.com/book/show/121382396-test-driven-development-in-go).
+  - [Cloud Native Go](https://www.goodreads.com/book/show/55767844-cloud-native-go).
+  - [Learning Go](https://www.goodreads.com/book/show/55841848-learning-go): about to finish, good book so far. too verbose for my taste.
+  - [tmux 3](https://www.goodreads.com/book/show/228141869-tmux-3): Quick read, learnt some new tricks.
+  - [Systems Performance: Enterprise and the Cloud](https://www.goodreads.com/book/show/18058001-systems-performance).
+  - [Graph Neural Networks in Action](https://www.goodreads.com/book/show/61397620-graph-neural-networks-in-action).
 
-## Jul
+## July
 
 - Designed and implemented an LLM-based product ingestion service. Due to the latency of LLM inference, integrating this service with the existing product indexing pipeline would violate current SLA requirements.
 - The new service is implemented in Golang (previously I want to use Python - but app size may affect service startup time). Some books helped me a lot:
-    - [Test-driven development in Go](https://www.goodreads.com/book/show/121382396-test-driven-development-in-go).
-    - [Cloud Native Go](https://www.goodreads.com/book/show/55767844-cloud-native-go).
-    - [Learning Go](https://www.goodreads.com/book/show/55841848-learning-go).
+  - [Test-driven development in Go](https://www.goodreads.com/book/show/121382396-test-driven-development-in-go).
+  - [Cloud Native Go](https://www.goodreads.com/book/show/55767844-cloud-native-go).
+  - [Learning Go](https://www.goodreads.com/book/show/55841848-learning-go).
 
 ## Jun
 
