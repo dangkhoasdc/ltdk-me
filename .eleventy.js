@@ -18,7 +18,7 @@ const mdCallouts = require('markdown-it-obsidian-callouts');
 const pluginTOC = require('eleventy-plugin-toc')
 const poison = require("eleventy-plugin-poison");
 const safeLinks = require('@sardine/eleventy-plugin-external-links');
-
+const typesetPlugin = require('eleventy-plugin-typeset');
 
 
 module.exports = function (eleventyConfig) {
@@ -35,6 +35,7 @@ module.exports = function (eleventyConfig) {
     includeCSS: true,
   });
   eleventyConfig.addPlugin(safeLinks);
+  eleventyConfig.addPlugin(typesetPlugin());
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
