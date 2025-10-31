@@ -17,6 +17,7 @@ const taskLists = require('markdown-it-task-lists');
 const mdCallouts = require('markdown-it-obsidian-callouts');
 const pluginTOC = require('eleventy-plugin-toc')
 const poison = require("eleventy-plugin-poison");
+const safeLinks = require('@sardine/eleventy-plugin-external-links');
 
 
 
@@ -33,6 +34,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(poison, {
     includeCSS: true,
   });
+  eleventyConfig.addPlugin(safeLinks);
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
