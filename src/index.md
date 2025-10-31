@@ -44,6 +44,7 @@ I was responsible for re-implementing the inference framework (originally in MAT
 The most challenging task is to implement *fast* SIFT features on Android devices using shader programs while maintaining the accuracy.
 
 ---
+
 ## Education
 
 ### Now
@@ -67,12 +68,13 @@ I completed my undergraduate degree at [HCMUS](https://en.hcmus.edu.vn/), where 
 - At [University of Saskatchewan](https://www.usask.ca/), I derived a new method for [white cell counting problem](https://github.com/dangkhoasdc/CellCounter).
 
 ---
+
 ## Skills
 
 ### Programming Languages
 
 - Professions: Python, Go, C++, Java, C#.
-- Hobbies: Julia, D, Crystal, Nim, Racket.
+- Hobbies: Julia, D, Crystal, Raku, Clojure.
 
 ### Tools
 
@@ -80,6 +82,7 @@ I completed my undergraduate degree at [HCMUS](https://en.hcmus.edu.vn/), where 
 - Hobbies: Raylib, ImGui.
 
 ---
+
 ## Misc
 
 - A collection of my [favorite books](/books).
