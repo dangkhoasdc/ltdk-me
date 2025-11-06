@@ -1,6 +1,6 @@
 ---
 layout: "post.njk"
-title: "Libra-RCNN" 
+title: "Libra-RCNN"
 description: "Review and Re-implement"
 eleventyNavigation:
     key: Libra-RCNN
