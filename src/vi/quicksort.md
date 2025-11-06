@@ -1,7 +1,7 @@
 ---
 layout: "post.njk"
 title: "Một số biến thể của Quicksort"
-date: 2018-01-04
+date: 2021-02-14
 tags:
     - vi
     - programming
