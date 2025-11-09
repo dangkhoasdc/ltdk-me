@@ -5,7 +5,6 @@ export default {
   description: "LTDK's Personal Homepage",
   author: {
     name: "Le Tan Dang Khoa",
-    email: "dkhoa69@hotmail.com",
     url: "http://ltdk.me",
   },
 };
