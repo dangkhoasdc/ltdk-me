@@ -1,23 +1,32 @@
 ---
 layout: "post.njk"
-title: "Generating Inversion Table" 
-description: ""
+title: "Generating Inversion Table"
+date: 2018-01-16
+tags:
+    - vi
+    - algorithms
+    - taocp
 eleventyNavigation:
     key: Inversion Table
     parent: Posts
-date: 2018-16-01
 ---
 
-# Introduction
 The programming exercise is from TAoCP, Vol3, 5.1.1-6:
 
-> Design an algorithm that computes the inversion table $b_1, b_2 \cdots b_n$ corresponding to a given permutation $a_1a_2 \cdots a_n$ of ${1, 2, \cdots , n}$,where the running time is essentially proportional to $n\ log n$ on typical  computers.
+> Design an algorithm that computes the inversion table $b_1, b_2 \cdots b_n$
+> corresponding to a given permutation $a_1a_2 \cdots a_n$ of ${1, 2, \cdots , n}$,
+> where the running time is essentially proportional to $n\ log n$ on typical
+> computers.
 
-I was really stuck on the solution Knuth given in the book. The author also mentioned another approach which actually is a modification of merge sort. But let first understand the algorithm using bitwise.
+I was really stuck on the solution Knuth given in the book. The author also
+mentioned another approach which actually is a modifination of merge sort. But
+let first understand the algorithm using bitwise.
 
 # Implementation
 
-The C++ implementation has a bit difference from the original one. I used 0-index array instead of 1-index array as Knuth's version. Frankly, it is not the best version, I just want to convert the pseudo code to an executable one.
+The C++ implementation has a bit different from the original one. I used 0-index
+array instead of 1-index array as Knuth's version. Frankly, it is not the best
+version, I just want to convert the pseudo code to an executable one.
 
 ```cpp
 #include <iostream>
@@ -96,16 +105,39 @@ Let run the algorithm step by step:
 1. `k=3`. $\overline{s} = \overline{0}$, `x[0] = 2`. `b = 1 2 2 2 0 2 2 0 0`.
 2. `k=2`. Array `x` have two items $x[\overline{0}]$, and $x[\overline{1}]$ whose
 values are 4, 0, respectively. `b = 2 3 6 2 0 2 2 0 0`.
-3. `k=1`. There are 3 possibilities of $x[s]$, namely $x[\overline{00}]$,
+3. `k=1`. There are 3 posibilities of $x[s]$, namely $x[\overline{00}]$,
 $x[\overline{01}]$, $x[\overline{10}]$ whose values are 2, 2, 0, respectively.
 Eventually, b is `2 3 6 3 0 2 2 0 0`.
 4. `k=0`, There are 5 items in `x`: $x[\overline{000}] = 1$,
 $x[\overline{001}]=1$, $x[\overline{010}]=1$ ,$x[\overline{011}]=1$, $x[\overline{100}]=1$,
 we get the final output `b = 2 3 6 4 0 2 2 1 0`.
 
-# The Mergesort-based Algorithm
+<!--
+The main idea is based on the current index $k$, the algorithm divides the set
+of $n$ elements into many subsets based the binary prefix of each number. Later,
+it updates the inversion value from the total number of candidates of subsets whose
+element is larger than the value that we are currently considering.
 
-Instead of constructing an inversion table, this algorithm counts the total
+For example, given the sequence from the book: $5, 9, 1, 8, 2, 6, 4, 7, 3$.
+
+Firstly, we divide the input into 2 sets: $1, 2, 3, 4, 5, 6, 7$ and $8, 9$.
+`x[s]` only counts the candidates of the set whose `r=1`, namely the larger
+set. Specifically, when `k=3`, `x = [2]`. `b` is updated based on contemporary
+`x`.
+
+Next when `k=2`, we categorize the input into 3 subsets: $1, 2, 3$, $4, 5, 6, 7$ and
+$8. 9$. Since we already count the set $8, 9$, we know only check the size
+of $4, 5, 6,7 $ and update the inversion of $1, 2, 3$.
+
+When `k=1`, we have 4 subsets: $1$, $2, 3$,
+
+Finally, `k=0` we get $\{1\}$; $\\{2, 3\\}$; $\\{4, 5\\}$, $\\{6, 7\\}$, and $\\{8, 9\\}$.
+The algorithms will count candidates on set elements $1, 3, 5, 7, 9$
+-->
+
+# The mergesort-based algorithm
+
+Instead of constructing an inversion table, this algorithm count the total
 number of inversions in a permutation which utilize merging procedures from
 the renowned mergesort.
 
@@ -163,4 +195,6 @@ are greater than `a[subidx_2]` given the invariant that two arrays are already
 sorted. Therefore, there are `mid-subidx_1` inversions of `a[subidx_2]`.
 
 # Reference
-- [gywangmtl's post](http://gywangmtl.blogspot.sg/2013/03/n-log-n.html): the post truly helps me understand the algorithm. Also, thank you, Google Translates.>)
+
+- [gywangmtl's post](http://gywangmtl.blogspot.sg/2013/03/n-log-n.html): the
+post trully helps me understand the algorithm. Also, thank you, Google Translates.
