@@ -6,6 +6,15 @@ description: "What am I doing"
 
 # 2025
 
+## Nov
+
+- Moved my old content to the new place (which is this one). Still in progress though since I intend to move some ancient posts from 201x era to here as well.
+- Working on optimizing matrix multiplication, applied several techniques such as blocking, loop unrolling, and SIMD instructions.
+- Working on question classification using graph machine learning.
+- Read:
+  - [Linear Algebra for Data Science, Machine Learning, and Signal Processing](https://www.goodreads.com/book/show/201643974-linear-algebra-for-data-science-machine-learning-and-signal-processing)
+  - [System Performance: Enterprise and the Cloud, 2nd Edition](https://www.goodreads.com/book/show/18058001-systems-performance)
+
 ## Oct
 
 - Experimented with [Quartz](https://quartz.jzhao.xyz). I gonna use it for my upcoming "Fun with Data Structures & Algorithms" (Definitely need a better name) series.
