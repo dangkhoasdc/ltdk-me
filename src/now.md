@@ -14,8 +14,8 @@ description: "What am I doing"
 Lately, I found [Logseq](https://logseq.com/) is a great alternative to the above apps.
 - Found [sphinx_literate](https://github.com/eliemichel/sphinx_literate) which maybe the best literate tool at the moment. Look at [this beauty](https://eliemichel.github.io/LearnWebGPU/).
 - Read:
-    - [Linear Algebra for Data Science, Machine Learning, and Signal Processing](https://www.goodreads.com/book/show/201643974-linear-algebra-for-data-science-machine-learning-and-signal-processing)
-    - [System Performance: Enterprise and the Cloud, 2nd Edition](https://www.goodreads.com/book/show/18058001-systems-performance)
+  - [Linear Algebra for Data Science, Machine Learning, and Signal Processing](https://www.goodreads.com/book/show/201643974-linear-algebra-for-data-science-machine-learning-and-signal-processing)
+  - [System Performance: Enterprise and the Cloud, 2nd Edition](https://www.goodreads.com/book/show/18058001-systems-performance)
 
 ## Sep
 
@@ -132,3 +132,11 @@ Lately, I found [Logseq](https://logseq.com/) is a great alternative to the abov
   - Upgraded to 11ty v3.
   - Added [Github comments](https://utteranc.es)
 - [x] (VN) Reviewed [Dune](https://www.youtube.com/shorts/JWC_Tpqe9eE).
+
+# 2023
+
+## May
+
+- Playing around with [SAM](https://segment-anything.com/).
+- Reading [Designing Data-Intensive Applications](https://www.goodreads.com/en/book/show/23463279). It is wayyyy overdue. I should have read this book long before.
+- Reading [The Algorithm Design Manual](https://www.goodreads.com/book/show/425208.The_Algorithm_Design_Manual?ref=nav_sb_ss_1_27). A fun read so far, most of the exercises can be practiced on Leetcode.
