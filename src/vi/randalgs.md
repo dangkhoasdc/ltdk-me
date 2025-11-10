@@ -7,8 +7,6 @@ tags:
     - algorithms
 ---
 
-# Các ví dụ về thuật toán ngẫu nhiên
-
 Tiếp tục series về thuật toán ngẫu nhiên, trong bài viết này mình ghi lại 3 ví dụ điển hình trong họ bài toán này. Tất cả các ví dụ đều nằm trong cuốn sách [Randomized Algorithms](https://www.amazon.com/Randomized-Algorithms-Rajeev-Motwani/dp/0521474655)
 
 # Randomized Quicksort
@@ -208,7 +206,7 @@ Bài toán được quy về việc tính xác suất $Pr[X_{ij}=1]$. Gọi $t$ 
 
 Bởi đường thẳng chứa $s_i$ bất kì có thể tiến vô cùng về hai phía nên tồn tại hai đoạn sao cho $index(s_i, s_j) = index(s_i, s_k)$. Nếu $index(s_i, s_j)=t$ ta gọi $s_{i1}, s_{i2}, \dots, s_{it}$ là những đoạn thẳng mà $s_i$ sẽ cắt trước khi giao với $s_j$, xác suất để sự kiện này xảy ra là $\frac{1}{t+1}$
 
-Cho một đoạn $s_k$ cố định và $m \in \{0, 1, 2, dots, n-2 \}$ tồn tại tối đa hai đoạn thẳng $s_l$ sao cho $index(s_l, s_k)=m$
+Cho một đoạn $s_k$ cố định và $m \in \{0, 1, 2, \cdots, n-2 \}$ tồn tại tối đa hai đoạn thẳng $s_l$ sao cho $index(s_l, s_k)=m$
 
 Cận trên được tính như sau:
 

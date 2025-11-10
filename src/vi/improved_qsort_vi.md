@@ -51,7 +51,10 @@ Cách giải được đề cập chi tiết trong các sách như Introduction 
 
 ## Hạn chế trường hợp worst-case
 
-Một trong những phương pháp chống worst-case nổi tiếng của quicksort là xáo trộn mảng input trước khi dùng quicksort. Dùng [Knuth shuffle](https://en.wikipedia.org/wiki/Fisher-Yates_shuffle) với độ phức tạp $\mathcal{O}(N)$ ta có thể đảm bảo hiệu quả của thuật toán. Ngoài ra, việc xáo trộn mảng input khiến cải tiến này, thường được gọi với cái tên randomized quicksort, trở thành ví dự kinh điển trong việc phân tích các thuật toán ngẫu nhiên. Mình có một [bài viết](http://dkhoa.me/post/randalgs_ex/) đề cập tới phân tích randomized quicksort.
+Một trong những phương pháp chống worst-case nổi tiếng của quicksort là xáo trộn mảng input trước khi dùng quicksort.
+Dùng [Knuth shuffle](https://en.wikipedia.org/wiki/Fisher-Yates_shuffle) với độ phức tạp $\mathcal{O}(N)$ ta có thể đảm bảo hiệu quả của thuật toán.
+Ngoài ra, việc xáo trộn mảng input khiến cải tiến này, thường được gọi với cái tên randomized quicksort, trở thành ví dự kinh điển trong việc phân tích các thuật toán ngẫu nhiên.
+Mình có một [bài viết](/vi/randalgs) đề cập tới phân tích randomized quicksort.
 
 Ngoài cách xáo trộn mảng ra, còn có một số cách tiếp cận khác:
 
@@ -124,7 +127,10 @@ Phiên bản Java của Sedgewick cũng rất đáng để tìm hiểu: [source 
 
 ## Samplesort
 
-Đây là một bản chế lại của quicksort để chạy được trong các thuật toán song song. Tư tưởng ở đây là sử dụng quicksort để tìm các pivot cho từng process. Rồi sau đó chạy quicksort trên từng pivot được phân phối đó. [Bài viết này](http://parallelcomp.uw.hu/ch09lev1sec5.html) mô tả cụ thể và phân tích độ phức tạp của thuật toán.
+Đây là một bản chế lại của quicksort để chạy được trong các thuật toán song song.
+Tư tưởng ở đây là sử dụng quicksort để tìm các pivot cho từng process.
+Rồi sau đó chạy quicksort trên từng pivot được phân phối đó.
+[Bài viết này](http://users.atw.hu/parallelcomp/ch09lev1sec5.html) mô tả cụ thể và phân tích độ phức tạp của thuật toán.
 
 # Tham khảo
 

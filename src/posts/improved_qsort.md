@@ -50,7 +50,13 @@ The solution method is detailed in books like Introduction to Algorithms, Concre
 
 ## Limiting the Worst-case
 
-One famous method to avoid quicksort's worst-case is to shuffle the input array before using quicksort. Using [Knuth shuffle](https://en.wikipedia.org/wiki/Fisher-Yates_shuffle) with complexity $\mathcal{O}(N)$ ensures the algorithm's efficiency. Moreover, shuffling the input makes this improvement, often called randomized quicksort, a classic example in analyzing randomized algorithms. I have a [post](http://dkhoa.me/post/randalgs_ex/) discussing the analysis of randomized quicksort.
+One famous method to avoid quicksort's worst-case is to shuffle the input array before using quicksort.
+Using [Knuth shuffle](https://en.wikipedia.org/wiki/Fisher-Yates_shuffle) with complexity $\mathcal{O}(N)$ ensures the algorithm's efficiency.
+Moreover, shuffling the input makes this improvement, often called randomized quicksort, a classic example in analyzing randomized algorithms.
+I have a [post](/vi/randalgs) discussing the analysis of randomized quicksort.
+
+>[!caution]
+> Link above is in Vietnamese.
 
 Besides shuffling, there are other approaches:
 
@@ -123,7 +129,9 @@ Sedgewick's Java version is also worth exploring: [source code QuickX](https://a
 
 ## Samplesort
 
-This is a modified version of quicksort to run in parallel algorithms. The idea is to use quicksort to find pivots for each process, then run quicksort on each distributed pivot. [This article](http://parallelcomp.uw.hu/ch09lev1sec5.html) describes and analyzes the algorithm's complexity.
+This is a modified version of quicksort to run in parallel algorithms.
+The idea is to use quicksort to find pivots for each process, then run quicksort on each distributed pivot.
+[This article](http://users.atw.hu/parallelcomp/ch09lev1sec5.html) describes and analyzes the algorithm's complexity.
 
 # References
 
