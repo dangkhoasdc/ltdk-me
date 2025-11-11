@@ -10,7 +10,7 @@
     "@arothuis/markdown-it-biblatex": "^2.0.1",
     "@sardine/eleventy-plugin-external-links": "^1.4.0",
     "clean-css": "^5.3.3",
-     "eleventy-plugin-typeset": "github:arcades-studio/eleventy-plugin-typeset-again",
+    "eleventy-plugin-typeset": "github:arcades-studio/eleventy-plugin-typeset-again",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-highlightjs": "^4.1.0",
     "markdown-it-mathjax3": "^4.3.2",
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-upgrade-help": "^3.0.1",
+    "eleventy-plugin-embed-everything": "^1.21.0",
     "eleventy-plugin-poison": "^1.0.1",
     "eleventy-plugin-toc": "^1.1.5",
     "markdown-it-emoji": "^3.0.0",

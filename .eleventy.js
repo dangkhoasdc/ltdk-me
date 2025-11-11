@@ -19,6 +19,7 @@ const pluginTOC = require('eleventy-plugin-toc')
 const poison = require("eleventy-plugin-poison");
 const safeLinks = require('@sardine/eleventy-plugin-external-links');
 const typesetPlugin = require('eleventy-plugin-typeset');
+const embedEverything = require("eleventy-plugin-embed-everything");
 
 
 module.exports = function (eleventyConfig) {
@@ -34,8 +35,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(poison, {
     includeCSS: true,
   });
+  eleventyConfig.addPlugin(embedEverything, {
+    use: ['youtube']
+  });
   eleventyConfig.addPlugin(safeLinks);
   eleventyConfig.addPlugin(typesetPlugin());
+
   eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 
   eleventyConfig.addFilter("postDate", (dateObj) => {
