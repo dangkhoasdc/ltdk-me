@@ -40,7 +40,7 @@ Lately, I found [Logseq](https://logseq.com/) is a great alternative to the abov
 ## August
 
 - Spent considerable time on model deployment. I wanted to break the existing design of our ML infrastructure which is outdated and troublesome to deploy. Went to [MLServer](https://mlserver.readthedocs.io/en/latest/getting-started/index.html), simplified the deployment by removing the dependencies on other service, also removed several redundant communication between services. At the end, I still need to update 4 different services.
-- Started the final semester at NUS. I took 2 courses which seems unrelated to each other: [Graph Machine Learning](https://nusmods.com/courses/CS5284/graph-machine-learning), [Computer System Performance Analysis](https://nusmods.com/courses/CS5239/computer-system-performance-analysis).
+- Started the final semester at NUS. I took 2 courses which seem unrelated to each other: [Graph Machine Learning](https://nusmods.com/courses/CS5284/graph-machine-learning), [Computer System Performance Analysis](https://nusmods.com/courses/CS5239/computer-system-performance-analysis).
 - Reading:
   - [Test-driven development in Go](https://www.goodreads.com/book/show/121382396-test-driven-development-in-go).
   - [Cloud Native Go](https://www.goodreads.com/book/show/55767844-cloud-native-go).
