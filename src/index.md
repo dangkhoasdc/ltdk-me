@@ -24,15 +24,15 @@ I also lead the effort to improve search quality: from implementing algorithm co
 
 I also spent about 2 years at Visenze developing on-device ML solutions:
 
-1. Built a 3D object labelling solution. It comprises: (1) an AR mobile app capturing objects and collect 3D data, (2) an Unity tool for importing and refining raw data, and (3) a 3D object detection codebase for training, evaluation and visualization.
-2. Delivered virtual try-on ([a sneak peak](https://www.youtube.com/shorts/SMwoToz2V54)), object tracking, and hand gesture recognition solutions on mobile devices.
-I developed DL models designed for low memory usage and fast inference to maintain 30 FPS constraint and integrated it to the existing Unity games via native plugins.
+1. Built a 3D object labelling solution. It comprises: (1) an AR mobile app capturing objects and collecting 3D data, (2) a Unity tool for importing and refining raw data, and (3) a 3D object detection codebase for training, evaluation and visualization.
+2. Delivered virtual try-on ([a sneak peek](https://www.youtube.com/shorts/SMwoToz2V54)), object tracking, and hand gesture recognition solutions on mobile devices.
+I developed DL models designed for low memory usage and fast inference to maintain 30 FPS constraint and integrated them into the existing Unity games via native plugins.
 The game has more than 10M downloads on Play Store (Android), and stands at top-30 Education apps on iOS Store.
 
 Other projects I got involved:
 
 - Re-designed the sequential recommendation algorithm.
-- Improved exact product search via new a re-rank logic & advanced data augmentations^[While doing this, I anticipated [Meta's competition](https://www.drivendata.org/competitions/80/competition-image-similarity-2-dev/leaderboard/) and got #12 on the leaderboard].
+- Improved exact product search via a new re-rank logic & advanced data augmentations^[While doing this, I anticipated [Meta's competition](https://www.drivendata.org/competitions/80/competition-image-similarity-2-dev/leaderboard/) and got #12 on the leaderboard].
 
 ### Past
 
@@ -54,7 +54,7 @@ This program allows me to delve into AI topics that I don’t encounter in my da
 
 - Menu Recommendation using Deep Learning Critic-Actor Framework [[Github](https://github.com/CS5446-BCKR/RLRS), [Report](/assets/docs/CS5446.pdf)]: Thanks to our team member, we have access to order history of a F&B franchise in Singapore. I led implementation and model training. It helps me realize training RL model is painful :sob::sob:.
 - Predicting HDB Rental Price in Singapore [[Github](https://github.com/cs5228-group-1/cs5228-final-project), [Report](/assets/docs/CS5228.pdf)]: we studied rental price increases in Singapore using 2021-2023 HDB data and developed several prediction models, achieving [Top #1](https://www.kaggle.com/competitions/cs5228-2310-final-project/leaderboard?) on the private leaderboard of the competition.
-- [Blood Cell Identification](/assets/docs/CS5242.pdf): I proposed an U-Net variant which utilizes segmentation masks to classify 5 leukocytes. It achieves 92.59% accuracy^[TBH, the dataset seems too easy.] on [the CAM16 dataset](https://camelyon16.grand-challenge.org/Data/).
+- [Blood Cell Identification](/assets/docs/CS5242.pdf): I proposed a U-Net variant which utilizes segmentation masks to classify 5 leukocytes. It achieves 92.59% accuracy^[TBH, the dataset seems too easy.] on [the CAM16 dataset](https://camelyon16.grand-challenge.org/Data/).
 - LightningCat: [Report](/assets/docs/CS5224.pdf): a cloud-based SaaS platform that provides real-time updates on Singapore's sporting facilities, including operational status, capacity, weather-related closures, booking slots,
 through an intuitive map interface to optimize facility usage and foster community engagement.
 - TemporalLens [[Github](https://github.com/lexichron/TemporalLens), [Report](/assets/docs/CS5246.pdf)]: an AI-driven pipeline tracking emerging topics, constructs event timelines & knowledge graphs, analyzes sentiment shifts.

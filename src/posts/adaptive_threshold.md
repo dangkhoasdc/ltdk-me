@@ -51,14 +51,14 @@ Below is one example - it shows the score value of top 1000 results with the blu
 |![](/assets/images/thres/2.png)|![](/assets/images/thres/2-change.png)|
 
 For product search, recall is an important factor, hence we don't want the cutoff to be applied prematurely.
-In my implementation, I always return top 50 results with the assumption that it will includes all exact matches and relevant products.
+In my implementation, I always return top 50 results with the assumption that it will include all exact matches and relevant products.
 Beyond the 50th result, there tends to be a mix of relevant/partial relevant results, which can be safely trimmed.
 Plus, using an adaptive threshold helps prevent the reranker from pushing irrelevant products to the top of the list.
 The 2nd example shows when my approach does not help, i.e., the cutoff is applied too late and the final results contains a large amount of irrelevant results.
 This probably is an exact match search, where users copy product title to the search bar.
 
 Why not use a mixture model approach?
-It needs data to train although ChatGPT can surely annotate them, it would complicate the release timeline.
+It needs data to train; although ChatGPT can surely annotate them, it would complicate the release timeline.
 Meanwhile, DL-based approach seems too excessive and hasn't shown significant improvement.
 
 # Caveats
