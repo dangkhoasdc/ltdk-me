@@ -45,7 +45,7 @@ techniques. Take a look the figure, in some extends, we can say that GroupNorm i
 
 ![Normalization Methods](groupnorm/normalization_methods.jpg)
 
-Interestingly, *Layer Norm* looks oddly like the pooling method in Triangulation Embedding, or other higher-level features. Based on the figure, we also figure out why *Batch Norm* is not effective on small batch size, namely N is small and there are not enough sample to compute the good approximation for two moments (mean and variance). So how do other methods try to overcome that problem? They try to compute the statistics on the channel itself. Most of the common CNN models use 64, 128 or 256 channels in the conv layer, hence we have relatively enough values in order to compensate the lack of samples in each batch.
+Interestingly, *Layer Norm* looks oddly like the pooling method in Triangulation Embedding, or other higher-level features. Based on the figure, we also figure out why *Batch Norm* is not effective on small batch size, namely N is small and there are not enough samples to compute the good approximation for two moments (mean and variance). So how do other methods try to overcome that problem? They try to compute the statistics on the channel itself. Most of the common CNN models use 64, 128 or 256 channels in the conv layer, hence we have relatively enough values in order to compensate the lack of samples in each batch.
 
 Regarding the computation, the family of normalization layers are composed of two steps:
 
@@ -63,7 +63,7 @@ where $\gamma$ and $\beta$ are trainable scale and shift.
 
 # Implementation
 
-The paper also mentioned the Tensorflow implementation, I don't want to talk about it much. However, [the C++ implementation](https://github.com/pytorch/pytorch/blob/f4b434a6a53d9fe45283aee8572174f94a79f558/caffe2/operators/group_norm_op.h#L94) from caffe2 is worth reading. Why? Since it computes 2 moments in the inference time, hence I thought there is no way to integrate the layer into the penultimate Conv Layer, which is kind of disappointed since I want to optimize the inference model on mobile.
+The paper also mentioned the Tensorflow implementation, I don't want to talk about it much. However, [the C++ implementation](https://github.com/pytorch/pytorch/blob/f4b434a6a53d9fe45283aee8572174f94a79f558/caffe2/operators/group_norm_op.h#L94) from caffe2 is worth reading. Why? Because it computes 2 moments in the inference time, hence I thought there is no way to integrate the layer into the penultimate Conv Layer, which is kind of disappointing since I want to optimize the inference model on mobile.
 
 Interestingly, I've also found that there are [different implementations](https://github.com/pytorch/pytorch/issues/1410) for BatchNorm and there is no agreement across all popular deep learning frameworks about whether or not Bessel's corrections are applied.
 
