@@ -17,8 +17,8 @@ description: "What am I doing"
 
 ## Oct
 
-- Experimented with [Quartz](https://quartz.jzhao.xyz). I gonna use it for my upcoming "Fun with Data Structures & Algorithms" (Definitely need a better name) series.
-- Been working on Graph Neural Networks for question classification. Played with [geometric pytorch](https://github.com/pyg-team/pytorch_geometric) quite alot.
+- Experimented with [Quartz](https://quartz.jzhao.xyz). I'm going to use it for my upcoming "Fun with Data Structures & Algorithms" (Definitely need a better name) series.
+- Been working on Graph Neural Networks for question classification. Played with [geometric pytorch](https://github.com/pyg-team/pytorch_geometric) quite a lot.
 - Looking for better note-taking apps. In the past, I used the combination of UpNote, Obsidian, and RemNote.
 Lately, I found [Logseq](https://logseq.com/) is a great alternative to the above apps.
 - Found [sphinx_literate](https://github.com/eliemichel/sphinx_literate) which maybe the best literate tool at the moment. Look at [this beauty](https://eliemichel.github.io/LearnWebGPU/).
@@ -39,13 +39,13 @@ Lately, I found [Logseq](https://logseq.com/) is a great alternative to the abov
 
 ## August
 
-- Spent considerable time on model deployment. I wanted to break the existing design of our ML infrastructure which is out dated and troublesome to deployed. Went to [MLServer](https://mlserver.readthedocs.io/en/latest/getting-started/index.html), simplified the deployment by removing the dependencies on other service, also removed several redudant communication between services. At the end, I still need update 4 different services.
-- Started the final semester at NUS. I took 2 courses which seems unrelated to each other: [Graph Machine Learning](https://nusmods.com/courses/CS5284/graph-machine-learning), [Computer System Performance Analysis](https://nusmods.com/courses/CS5239/computer-system-performance-analysis).
+- Spent considerable time on model deployment. I wanted to break the existing design of our ML infrastructure which is outdated and troublesome to deploy. Went to [MLServer](https://mlserver.readthedocs.io/en/latest/getting-started/index.html), simplified the deployment by removing the dependencies on other service, also removed several redundant communication between services. At the end, I still need to update 4 different services.
+- Started the final semester at NUS. I took 2 courses which seem unrelated to each other: [Graph Machine Learning](https://nusmods.com/courses/CS5284/graph-machine-learning), [Computer System Performance Analysis](https://nusmods.com/courses/CS5239/computer-system-performance-analysis).
 - Reading:
   - [Test-driven development in Go](https://www.goodreads.com/book/show/121382396-test-driven-development-in-go).
   - [Cloud Native Go](https://www.goodreads.com/book/show/55767844-cloud-native-go).
   - [Learning Go](https://www.goodreads.com/book/show/55841848-learning-go): about to finish, good book so far. too verbose for my taste.
-  - [tmux 3](https://www.goodreads.com/book/show/228141869-tmux-3): Quick read, learnt some new tricks.
+  - [tmux 3](https://www.goodreads.com/book/show/228141869-tmux-3): Quick read, learned some new tricks.
   - [Systems Performance: Enterprise and the Cloud](https://www.goodreads.com/book/show/18058001-systems-performance).
   - [Graph Neural Networks in Action](https://www.goodreads.com/book/show/61397620-graph-neural-networks-in-action).
 
@@ -76,10 +76,10 @@ Lately, I found [Logseq](https://logseq.com/) is a great alternative to the abov
 
 ## Apr
 
-- Finished both Cloud Computing & Text Mining courses. Both are practical and I pretty like them, although I wish I can spent more times on some topics taught in lectures.
+- Finished both Cloud Computing & Text Mining courses. Both are practical and I really liked them, although I wish I could have spent more time on some topics taught in lectures.
 - Worked on:
   - Non-English product search: adding non-English supports to the indexing backend and autocomplete services.
-  - Synonym set support: It's more about allowing merchandisers to define their our product taxonomy, the most tricky part is how to adapt vector search to the customized definition from users w/o re-training models for each customer.
+  - Synonym set support: It's more about allowing merchandisers to define their own product taxonomy, the most tricky part is how to adapt vector search to the customized definition from users w/o re-training models for each customer.
 - Read:
   - [AI-Powered Search](https://www.goodreads.com/book/show/223393598-ai-powered-search).
   - [Algorithmic Thinking](https://www.amazon.com/Algorithmic-Thinking-2nd-Problem-Based-Introduction).

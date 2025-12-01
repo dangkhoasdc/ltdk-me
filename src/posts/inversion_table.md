@@ -189,7 +189,7 @@ This is the exercise 5.2.5-21 in TAoCP. Unfortunately, Knuth did not mention
 the solution. The only modification is to add `(1)` to the merging step which
 counts the number of inversions of `a[subidx_2]`, the item in the second
 array we consider while merging two arrays. Since from `mid` to `subidx_2`, all
-items are lesser or equals to `a[subidx_2]`, so there is 0 inversions. However,
+items are less than or equal to `a[subidx_2]`, so there are 0 inversions. However,
 since `a[subidx_1] > a[subidx_2]` it means that all items from `subidx_1` to `mid`
 are greater than `a[subidx_2]` given the invariant that two arrays are already
 sorted. Therefore, there are `mid-subidx_1` inversions of `a[subidx_2]`.

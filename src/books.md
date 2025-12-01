@@ -1,7 +1,7 @@
 ---
 layout: "post.njk"
 title: "Favorite Books"
-description: "A collection of my favoriate books"
+description: "A collection of my favorite books"
 ---
 
 # Mathematics 
