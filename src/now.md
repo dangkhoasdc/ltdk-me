@@ -6,6 +6,15 @@ description: "What am I doing"
 
 # 2025
 
+## Dec
+
+- Completed my study at NUS. What a journey it has been!
+- My proposed LLM-enhanced ingestion pipeline has gone live. Some unexpected issues popped up during initial launch.
+- Played with [Raku](/posts/raku).
+- Reading:
+    - [Introduction to Recursive Programming](https://www.goodreads.com/book/show/34630991-introduction-to-recursive-programming).
+    - [How to Take Smart Notes](https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes)
+
 ## Nov
 
 - Moved my old content to the new place (which is this one). Still in progress though since I intend to move some ancient posts from 201x era to here as well.
