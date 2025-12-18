@@ -8,8 +8,8 @@ description: "What am I doing"
 
 ## Dec
 
-- Completed my study at  NUS. What a journey it has been!
-- My proposed LLM-enhanced ingestion pipeline has gone live. Some unexpected issues poped up during initial launch.
+- Completed my study at NUS. What a journey it has been!
+- My proposed LLM-enhanced ingestion pipeline has gone live. Some unexpected issues popped up during initial launch.
 - Played with [Raku](/posts/raku).
 - Reading:
     - [Introduction to Recursive Programming](https://www.goodreads.com/book/show/34630991-introduction-to-recursive-programming).
