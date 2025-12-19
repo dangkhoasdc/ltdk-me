@@ -12,7 +12,7 @@ description: "What am I doing"
 - My proposed LLM-enhanced ingestion pipeline has gone live. Some unexpected issues popped up during initial launch.
 - Played with [Raku](/posts/raku).
 - Reading:
-    - [Introduction to Recursive Programming](https://www.goodreads.com/book/show/34630991-introduction-to-recursive-programming).
+    - [Introduction to Recursive Programming](https://www.goodreads.com/book/show/34630991-introduction-to-recursive-programming): [my review](/reviews/intro_to_recursive).
     - [How to Take Smart Notes](https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes)
 
 ## Nov
