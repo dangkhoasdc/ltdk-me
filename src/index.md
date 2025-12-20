@@ -69,6 +69,13 @@ I completed my undergraduate degree at [HCMUS](https://en.hcmus.edu.vn/), where 
 
 ---
 
+## My Interests
+
+1. [Data structures & algorithms](https://algs-ltdk.netlify.app).
+2. Information Retrieval & Recommendation.
+3. Computer Graphics.
+4. Game Development.
+
 ## Skills
 
 ### Programming Languages
