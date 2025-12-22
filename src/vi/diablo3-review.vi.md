@@ -13,14 +13,14 @@ Lần đầu tiên chơi game Diablo là bản Diablo 2 Fury Within hồi lớp 
 
 Quay trở lại với Diablo 3, với góc nhìn của một đứa chơi game cho vui và không phải là tụi _geek_ khi chơi game và thuộc lòng các công thức tính demage, defense hay tá lả các thuộc tính khác.
 
-<!-- Nhân tiện về tính _Damge per second_ (DBP) trong game: -->
-<!---->
-<!-- <div> -->
-<!-- <script type="math/tex; mode=display">\text{dps} = \frac{\text{min} + \text{max}}{2} \times \text{APS} \times \text{Attach Speed} \times ( 1 + \frac{\text{Primary Stat}}{2} ) \times (1 + \text{CritC} \times \text{CritDam}) \times \text{DamMod}</script> -->
-<!-- </div> -->
-<!---->
-<!-- Sợ rồi chứ. Tuy vẫn chưa kinh dị bằng bọn [pokemon](http://bulbapedia.bulbagarden.net/wiki/Experience#Gain_formula). -->
-<!-- Quay trở lại cảm nhận và những kỷ niệm liên quan giữa Diablo III và Diablo II. -->
+<!-- Nhân tiện về tính _Damge per second_ (DBP) trong game:
+
+<div>
+<script type="math/tex; mode=display">\text{dps} = \frac{\text{min} + \text{max}}{2} \times \text{APS} \times \text{Attach Speed} \times ( 1 + \frac{\text{Primary Stat}}{2} ) \times (1 + \text{CritC} \times \text{CritDam}) \times \text{DamMod}</script>
+</div>
+
+Sợ rồi chứ. Tuy vẫn chưa kinh dị bằng bọn [pokemon](http://bulbapedia.bulbagarden.net/wiki/Experience#Gain_formula).
+Quay trở lại cảm nhận và những kỷ niệm liên quan giữa Diablo III và Diablo II. -->
 
 ## Cốt truyện
 
