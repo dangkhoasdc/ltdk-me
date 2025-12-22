@@ -10,9 +10,12 @@ description: "What am I doing"
 
 - Completed my study at NUS. What a journey it has been!
 - My proposed LLM-enhanced ingestion pipeline has gone live. Some unexpected issues popped up during initial launch.
+- Developing LLM agents for general product ingestion pipeline. Thought about using knowledge graph to enhance the model capacity,
+but I did not have enough time to explore this direction.
 - Played with [Raku](/posts/raku).
 - Reading:
     - [Introduction to Recursive Programming](https://www.goodreads.com/book/show/34630991-introduction-to-recursive-programming): [my review](/reviews/intro_to_recursive).
+    - [Recusion via Pascal](https://www.goodreads.com/book/show/8692060-recursion-via-pascal)
     - [How to Take Smart Notes](https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes)
 
 ## Nov
